@@ -1,0 +1,74 @@
+/* Hero.css */
+
+.hero-image-overlay {
+  position: relative;
+  overflow: hidden;
+  height: 100vh;
+}
+
+.hero-image-overlay img {
+  width: 100%;
+  height: auto;
+}
+
+.hero-image-overlay-content {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 2rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  text-align: center;
+}
+
+.hero-image-overlay-content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.hero-image-overlay-content p {
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+.hero-image-overlay-content button {
+  font-size: 1rem;
+}
+
+.carousel-inner .carousel-item {
+  transition: opacity 1s ease-in-out;
+  opacity: 0;
+  transform: scale(0.9);
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item.carousel-next,
+.carousel-inner .carousel-item.carousel-prev {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.carousel-inner .carousel-item h1,
+.carousel-inner .carousel-item p,
+.carousel-inner .carousel-item button {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.carousel-inner .carousel-item.active h1,
+.carousel-inner .carousel-item.active p,
+.carousel-inner .carousel-item.active button {
+  opacity: 1;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 5%;
+  opacity: 1;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: rgba(0, 0, 0, 0.5);
+}
