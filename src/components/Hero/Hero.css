@@ -24,16 +24,19 @@
 
 .hero-image-overlay-content h1 {
   font-size: 2.5rem;
+  font-weight: 600;
   margin-bottom: 20px;
 }
 
 .hero-image-overlay-content p {
-  font-size: 1rem;
+  font-size: 1.3rem;
   margin-bottom: 20px;
+  line-height: 1.8em;
 }
 
 .hero-image-overlay-content button {
   font-size: 1rem;
+  padding: 15px;
 }
 
 .carousel-inner .carousel-item {
