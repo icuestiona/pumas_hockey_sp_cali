@@ -52,7 +52,6 @@ const Hero = () => {
     const carouselElement = document.querySelector("#carousel-1");
     if (carouselElement) {
       new window.bootstrap.Carousel(carouselElement);
-      // Add any additional logic or operations here
     }
   }, []);
 
@@ -68,8 +67,9 @@ const Hero = () => {
                 lifelong sports training!
               </h1>
               <p>
-                Offering our children and their families fun sports experiences,
-                full of lessons, which contribute to their integral development.
+                Offering our children and their families amusing sports
+                experiences, full of learnings, which contribute to their
+                integral development.
               </p>
               <button type="button" className="btn btn-info">
                 Ask for a free class
