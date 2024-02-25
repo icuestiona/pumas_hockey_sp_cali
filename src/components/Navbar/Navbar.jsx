@@ -11,13 +11,14 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 
 import { faPhone, faEnvelope } from "@fortawesome/fontawesome-free-solid";
+
 const Navbar = () => {
   const styles = {
     icon: "icon",
   };
 
   return (
-    <nav className="navbar">
+    <nav className="navbar d-flex justify-content-between fixed-top navbar-expand-lg navbar-light bg-light p-2">
       <div className="left-section">
         <div className="logo">
           <img src={clubLogo} alt="Club Logo" />
