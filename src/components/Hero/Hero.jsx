@@ -67,9 +67,9 @@ const Hero = () => {
                 lifelong sports training!
               </h1>
               <p>
-                Offering our children and their families amusing sports
-                experiences, full of learnings, which contribute to their
-                integral development.
+                Offering children, youth and their families amusing sports
+                experiences and learnings that contribute to their integral
+                development.
               </p>
               <button type="button" className="btn btn-info">
                 Ask for a free class
