@@ -47,8 +47,8 @@
 }
 
 .carousel-inner .carousel-item.active,
-.carousel-inner .carousel-item.carousel-next,
-.carousel-inner .carousel-item.carousel-prev {
+.carousel-inner .carousel-item-next.carousel-item-start,
+.carousel-inner .carousel-item-prev.carousel-item-end {
   opacity: 1;
   transform: scale(1);
 }

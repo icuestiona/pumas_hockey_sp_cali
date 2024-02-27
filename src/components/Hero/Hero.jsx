@@ -58,7 +58,10 @@ const Hero = () => {
   return (
     <Carousel id="carousel-1" activeIndex={index} onSelect={handleSelect}>
       {images.map((image, idx) => (
-        <CarouselItem key={idx} active={idx === index}>
+        <CarouselItem
+          key={idx}
+          style={{ display: idx === index ? "block" : "none" }}
+        >
           <div className="hero-image-overlay">
             <img className="d-block w-100" src={image.src} alt={image.alt} />
             <div className="hero-image-overlay-content">
