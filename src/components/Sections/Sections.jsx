@@ -6,6 +6,7 @@ import imageValuesWorkshops from "../Assets/image1.jpg";
 import imageSportsTraining from "../Assets/image11.jpg";
 import imageRollerHockey from "../Assets/image47.jpg";
 import imageSocialInclusion from "../Assets/image43.jpg";
+import imageClosing from "../Assets/image6.jpg";
 
 const SectionsComponent = () => {
   return (
@@ -101,24 +102,29 @@ const SectionsComponent = () => {
 
       {/* Closing Statement */}
       <section className="closing-statement">
-        <div className="text">
-          <p>
-            The PUMAS way – Where great hockey players meet great people! Every
-            day, we evaluate the performance of our young athletes. As they
-            evolve, we tailor our efforts to strengthen their skills.
-            Recognizing the standouts, we inspire them to aim for the stars and
-            become high-performance athletes. We're not just shaping incredible
-            hockey players; we're molding remarkable individuals.
-          </p>
-          <p>
-            Ready to embrace the thrill of roller hockey? Join us at our club!
-            <span role="img" aria-label="stick">
-              🏒
-            </span>
-            <span role="img" aria-label="start">
-              🌟
-            </span>
-          </p>
+        <div className="content">
+          <div className="text">
+            <p>
+              The PUMAS way – Where great hockey players meet great people!
+              Every day, we evaluate the performance of our young athletes. As
+              they evolve, we tailor our efforts to strengthen their skills.
+              Recognizing the standouts, we inspire them to aim for the stars
+              and become high-performance athletes. We're not just shaping
+              incredible hockey players; we're molding remarkable individuals.
+            </p>
+            <p>
+              Ready to embrace the thrill of roller hockey? Join us at our club!
+              <span role="img" aria-label="stick">
+                🏒
+              </span>
+              <span role="img" aria-label="start">
+                🌟
+              </span>
+            </p>
+          </div>
+          <div className="image">
+            <img src={imageClosing} alt="Conclusion" />
+          </div>
         </div>
       </section>
     </div>
