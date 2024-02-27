@@ -23,7 +23,13 @@ const SectionsComponent = () => {
               they skillfully wield curved wooden sticks, propelling a rubber
               ball with compressed cork – that's the electrifying essence of
               roller hockey! Embrace The PUMAS way: where hockey meets
-              lifestyle! <span>🏒🚀</span>
+              lifestyle!{" "}
+              <span role="img" aria-label="stick">
+                🏒
+              </span>{" "}
+              <span role="img" aria-label="rocket">
+                🚀
+              </span>
             </p>
             <p>
               At PUMAS Hockey Club, we don't just play hockey; we live it.
@@ -38,13 +44,11 @@ const SectionsComponent = () => {
 
       {/* Section 2 */}
       <section className="section">
-        <div className="content two-columns">
-          <div className="image-column">
-            <div className="image">
-              <img src={imageSportsTraining} alt="Sports Training" />
-            </div>
+        <div className="content">
+          <div className="image">
+            <img src={imageSportsTraining} alt="Sports Training" />
           </div>
-          <div className="text-column">
+          <div className="text">
             <h2>Sports Training and Education</h2>
             <p>
               Step into our dynamic hockey training sessions – a blend of
@@ -76,26 +80,21 @@ const SectionsComponent = () => {
 
       {/* Section 4 */}
       <section className="section">
-        <div className="content two-columns">
-          <div className="image-column">
-            <div className="image">
-              <img
-                src={imageSocialInclusion}
-                alt="Social and Inclusion Activities"
-              />
-            </div>
+        <div className="content">
+          <div className="image">
+            <img
+              src={imageSocialInclusion}
+              alt="Social and Inclusion Activities"
+            />
           </div>
-          <div className="text-column">
-            <div className="text">
-              <h2>Social and Inclusion Activities</h2>
-              <p>
-                It's not just about the game; it's about the community. Join us
-                for socialization and inclusion activities - birthdays, warm
-                welcomes, educational outings, farewells, and special occasions.
-                At PUMAS Hockey Club, everyone is part of something
-                extraordinary.
-              </p>
-            </div>
+          <div className="text">
+            <h2>Social and Inclusion Activities</h2>
+            <p>
+              It's not just about the game; it's about the community. Join us
+              for socialization and inclusion activities - birthdays, warm
+              welcomes, educational outings, farewells, and special occasions.
+              At PUMAS Hockey Club, everyone is part of something extraordinary
+            </p>
           </div>
         </div>
       </section>
@@ -113,7 +112,12 @@ const SectionsComponent = () => {
           </p>
           <p>
             Ready to embrace the thrill of roller hockey? Join us at our club!
-            <span>🏒🌟</span>
+            <span role="img" aria-label="stick">
+              🏒
+            </span>
+            <span role="img" aria-label="start">
+              🌟
+            </span>
           </p>
         </div>
       </section>
