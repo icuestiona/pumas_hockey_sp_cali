@@ -5,10 +5,10 @@ import imageSupport from "../Assets/image6.jpg";
 const Support = () => {
   return (
     <div className="support-container">
-      <div className="content-container">
-        <div className="support-title">
-          <h2>Join us in creating a better society</h2>
-        </div>
+      <div className="support-title">
+        <h2>Join us in creating a better society</h2>
+      </div>
+      <div className="grid-container">
         <div className="support-text-container">
           <p>
             In our quest to cultivate a society that champions justice, peace,
@@ -36,12 +36,18 @@ const Support = () => {
             the creation of a more vibrant, inclusive society.
           </p>{" "}
           <p>
-            <strong>YOUR SUPPORT MATTERS!</strong>
+            <strong>YOUR SUPPORT MATTERS!</strong>{" "}
+            <span role="img" aria-label="stick">
+              🏒
+            </span>{" "}
+            <span role="img" aria-label="start">
+              🚀
+            </span>
           </p>{" "}
         </div>{" "}
-      </div>
-      <div className="support-image">
-        <img src={imageSupport} alt="Supporter" />
+        <div className="support-image">
+          <img src={imageSupport} alt="Supporter" />
+        </div>
       </div>
     </div>
   );
