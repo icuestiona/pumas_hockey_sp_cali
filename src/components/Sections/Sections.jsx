@@ -2,7 +2,7 @@
 
 import React from "react";
 import "./Sections.css";
-import imageValuesWorkshops from "../Assets/image1.jpg";
+import imageValuesWorkshops from "../Assets/image57.jpg";
 import imageSportsTraining from "../Assets/image17.jpg";
 import imageRollerHockey from "../Assets/image48.jpg";
 import imageSocialInclusion from "../Assets/image43.jpg";
