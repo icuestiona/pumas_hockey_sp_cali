@@ -4,9 +4,9 @@ import React from "react";
 import "./Sections.css";
 import imageValuesWorkshops from "../Assets/image1.jpg";
 import imageSportsTraining from "../Assets/image11.jpg";
-import imageRollerHockey from "../Assets/image47.jpg";
+import imageRollerHockey from "../Assets/image48.jpg";
 import imageSocialInclusion from "../Assets/image43.jpg";
-import imageClosing from "../Assets/image6.jpg";
+import imageClosing from "../Assets/image9.jpg";
 
 const SectionsComponent = () => {
   return (
@@ -101,7 +101,7 @@ const SectionsComponent = () => {
       </section>
 
       {/* Closing Statement */}
-      <section className="closing-statement">
+      <section className="section">
         <div className="content">
           <div className="text">
             <p>

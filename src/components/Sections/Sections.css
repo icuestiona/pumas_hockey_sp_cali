@@ -1,16 +1,15 @@
 body {
   margin: 0;
-}
-
-*,
-*:before,
-*:after {
-  box-sizing: inherit;
+  padding: 0;
+  display: flex;
+  height: 100vh;
+  box-sizing: border-box;
 }
 
 .sections-container {
-  max-width: 950px;
+  max-width: 1200px;
   margin: 0 auto;
+  margin-top: 60px;
 }
 
 .section {
@@ -31,6 +30,7 @@ body {
 
 .text h2 {
   color: #262b67;
+  font-weight: 600;
 }
 
 .text p {
@@ -40,24 +40,16 @@ body {
 
 .image {
   flex: 1;
-  text-align: left;
+  text-align: center;
 }
 
 .image img {
   position: relative;
   max-width: 100%;
-  height: auto;
   max-height: 300px;
   margin-top: 20px;
-}
-
-.closing-statement {
-  margin-top: 40px;
-}
-
-.closing-statement p {
-  font-size: 1rem;
-  line-height: 1.6;
+  margin-right: 20px;
+  border-radius: 5px 50px 5px;
 }
 
 /* Media Query for Small Devices */
