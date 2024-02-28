@@ -1,9 +1,8 @@
 export const navigation = [
   { name: "Home", path: "/" },
-  { name: "Who We Are", path: "/who-we-are" },
-  { name: "Team", path: "/team" },
+  { name: "About us", path: "/about" },
   { name: "Testimonials", path: "/testimonials" },
-  { name: "Join Us", path: "/join-us" },
-  { name: "Documents", path: "/documents" },
+  { name: "Join us", path: "/join" },
+  { name: "Support us", path: "/support" },
   { name: "Contact", path: "/contact" },
 ];
