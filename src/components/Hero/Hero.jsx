@@ -2,17 +2,17 @@ import React, { useState, useEffect } from "react";
 import { Carousel, CarouselItem, CarouselCaption } from "react-bootstrap";
 import "./Hero.css";
 import image26 from "../Assets/image26.jpg";
-import image17 from "../Assets/image17.jpg";
+import image19 from "../Assets/image19.jpg";
 import image34 from "../Assets/image34.jpg";
 import image10 from "../Assets/image10.jpg";
 import image37 from "../Assets/image37.jpg";
-import image40 from "../Assets/image40.jpg";
-import image8 from "../Assets/image8.jpg";
+import image41 from "../Assets/image41.jpg";
+import image38 from "../Assets/image38.jpg";
 
 const Hero = () => {
   const images = [
     {
-      src: image40,
+      src: image41,
       alt: "Fifth slide",
     },
     {
@@ -20,7 +20,7 @@ const Hero = () => {
       alt: "First slide",
     },
     {
-      src: image17,
+      src: image19,
       alt: "Second slide",
     },
     {
@@ -36,7 +36,7 @@ const Hero = () => {
       alt: "Fourth slide",
     },
     {
-      src: image8,
+      src: image38,
       alt: "Sixth slide",
     },
   ];
