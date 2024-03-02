@@ -23,8 +23,8 @@ const SectionsComponent = () => {
               rounded corners or shaped like a pickaxe. With a goal in sight,
               they skillfully wield curved wooden sticks, propelling a rubber
               ball with compressed cork – that's the electrifying essence of
-              roller hockey! Embrace The PUMAS way: where hockey meets
-              lifestyle!{" "}
+              roller hockey! Embrace The <strong>PUMAS</strong> way: where
+              hockey meets lifestyle! <br />
               <span role="img" aria-label="stick">
                 🏒
               </span>{" "}
@@ -33,8 +33,10 @@ const SectionsComponent = () => {
               </span>
             </p>
             <p>
-              At PUMAS Hockey Club, we don't just play hockey; we live it.
-              Here's a sneak peek into the PUMAS Way:
+              <strong>
+                At PUMAS Hockey Club, from Cali - Colombia, we don't just play
+                hockey; we live it. Here's a sneak peek into the PUMAS Way:
+              </strong>
             </p>
           </div>
           <div className="image">
