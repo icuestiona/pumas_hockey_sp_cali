@@ -56,14 +56,20 @@ const Hero = () => {
   }, []);
 
   return (
-    <Carousel id="carousel-1" activeIndex={index} onSelect={handleSelect}>
+    <Carousel
+      id="carousel-1"
+      activeIndex={index}
+      onSelect={handleSelect}
+      className="d-none d-md-block"
+    >
       {images.map((image, idx) => (
-        <CarouselItem
-          key={idx}
-          style={{ display: idx === index ? "block" : "none" }}
-        >
+        <CarouselItem key={idx} className="carousel-grid-item">
           <div className="hero-image-overlay">
-            <img className="d-block w-100" src={image.src} alt={image.alt} />
+            <img
+              className="d-block w-100 img-fluid"
+              src={image.src}
+              alt={image.alt}
+            />
             <div className="hero-image-overlay-content">
               <h1>
                 Enjoyment, learning and <br />
