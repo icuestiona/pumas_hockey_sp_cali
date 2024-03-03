@@ -1,3 +1,5 @@
+/* Add these styles to your existing CSS */
+
 .custom-navbar {
   display: flex;
   justify-content: space-between;
@@ -6,27 +8,63 @@
   position: sticky;
   top: 0px;
   z-index: 1000;
-}
-
-.navbar-light {
-  background-color: #42a02b !important;
   border: none !important;
   border-width: 0 !important;
   padding: 10px 20px;
 }
 
-.left-section {
+.navbar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left-section,
+.right-section {
   display: flex;
   align-items: center;
 }
 
-.navbar .left-section .logo img {
+.left-section .logo img {
   height: 90px;
   margin-right: 10px;
 }
 
-.navbar-nav ul {
+.navbar-toggler button {
+  display: none; /* Hide by default for larger screens */
+}
+
+.navbar-toggler-icon {
+  background-color: white;
+}
+
+.navbar-collapse {
   display: flex;
+  align-items: center;
+}
+
+.navbar-collapse .nav-link {
+  padding: 15px;
+  color: white;
+  text-decoration: none;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.navbar-collapse .nav-link:hover {
+  background-color: #d1d1fb;
+  border-radius: 5px;
+  padding: 10px 15px;
+}
+
+.navbar-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+}
+
+.navbar-nav ul {
+  display: inline;
   list-style-type: none;
   margin: 0 !important;
   padding: 0 !important;
@@ -44,76 +82,10 @@
   transition: background-color 0.3s ease-in-out;
 }
 
-.nav-link:hover {
-  background-color: #d1d1fb;
-  border-radius: 5px;
-}
-
-.right-section {
-  display: flex;
-  align-items: center;
-}
-
-.social-links {
-  display: flex;
-  align-items: center;
-}
-
-.social-links a {
-  margin-left: 1rem;
-  color: #fff;
-  text-decoration: none;
-  font-size: 1.5rem;
-}
-
-.icon {
-  font-size: 1.5rem;
-  color: #fff;
-  transition: transform 0.2s ease-in-out;
-}
-
-.icon:hover {
-  transform: translateY(-2px);
-}
-
-/* Navbar Styles */
-.navbar {
-  transition: all 0.3s ease-in-out;
-}
-
-.navbar-nav {
-  display: flex;
+.right-section .social-links {
+  display: inline;
+  flex-direction: row;
   justify-content: space-between;
-  align-items: center;
-  width: 100%;
-}
-
-.navbar-toggler {
-  border: none;
-  cursor: pointer;
-  display: none; /* Hide by default for larger screens */
-}
-
-.nav-item {
-  margin: 0 10px;
-}
-
-.nav-link {
-  display: block;
-  color: white;
-  padding: 10px 15px;
-  text-decoration: none;
-  transition: background-color 0.3s ease-in-out;
-}
-
-.nav-link:hover {
-  background-color: #d1d1fb;
-  border-radius: 5px;
-}
-
-/* Social Links Styles */
-.social-links {
-  display: flex;
   align-items: center;
 }
 
@@ -141,49 +113,63 @@
     display: none;
   }
 
-  .navbar {
-    flex-direction: column;
-    padding: 10px;
-  }
-
-  .left-section {
+  .navbar-header {
+    display: flex;
     justify-content: space-between;
     align-items: center;
   }
 
   .navbar-toggler {
+    border: none;
+    cursor: pointer;
     display: block;
-    background-color: #42a02b;
-    color: white;
+    order: 2; /* Adjust order of hamburger menu */
   }
 
-  .navbar-toggler-icon {
-    background-color: white;
+  .navbar-nav {
+    display: none;
+    flex-direction: column;
+    text-align: center;
   }
 
-  .navbar-nav.open,
-  .social-links.open {
+  .navbar-collapse {
+    max-height: none; /* Ensure proper height for the navigation bar */
+    overflow: hidden; /* Hide overflow on small screens */
+  }
+
+  .navbar-nav.open {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 10px 0;
+    text-align: center;
   }
 
-  .nav-item {
+  .navbar-nav.open .nav-item {
     margin: 0;
   }
 
-  .nav-link {
-    padding: 5px;
+  .navbar-nav.open .nav-link {
+    padding: 15px;
+    color: white;
   }
 
-  .social-links {
-    display: flex;
-    justify-content: center;
+  .navbar-nav.open .nav-link:hover {
+    background-color: transparent; /* Adjust hover style */
+  }
+
+  .social-links.open {
     margin-top: 10px;
   }
 
   .social-links.open a {
     margin: 10px 0;
+    justify-content: center;
+  }
+
+  .navbar-header,
+  .navbar-collapse,
+  .navbar-nav,
+  .social-links {
+    width: 100%; /* Adjust width for full-width on small screens */
   }
 }
