@@ -41,3 +41,28 @@
   height: auto;
   max-width: 400px;
 }
+
+/* Adjustments for Small Devices */
+@media (max-width: 767.98px) {
+  .support-container {
+    margin: 40px; /* Adjust margin for smaller devices */
+  }
+
+  .grid-container {
+    grid-template-columns: 1fr; /* Switch to a single column layout for smaller devices */
+  }
+
+  .support-title h2 {
+    font-size: 1.8rem; /* Adjust font size for h2 on smaller devices */
+    margin-bottom: 20px; /* Adjust margin-bottom for h2 on smaller devices */
+  }
+
+  .support-text-container {
+    text-align: left; /* Adjust text alignment for smaller devices */
+    margin-bottom: 20px; /* Adjust margin-bottom for text-container on smaller devices */
+  }
+
+  .support-text-container p {
+    font-size: 0.9rem; /* Adjust font size for paragraphs on smaller devices */
+  }
+}
