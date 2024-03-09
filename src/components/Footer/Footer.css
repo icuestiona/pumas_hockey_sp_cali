@@ -1,0 +1,102 @@
+.container.my-5 {
+  padding: 20px 0;
+}
+
+/* Main footer styles */
+footer.bg-primary {
+  padding: 40px 0;
+  bottom: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+/* Logo container styles */
+.rounded-circle.bg-white {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 auto 20px;
+}
+
+.rounded-circle img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Social media icon styles */
+.list-unstyled.d-flex {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.list-unstyled.d-flex li {
+  margin-right: 10px;
+}
+
+.list-unstyled.d-flex a {
+  font-size: 0.8rem;
+  color: white;
+}
+
+/* Section heading styles */
+.text-uppercase.mb-4 {
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+}
+
+/* Contact information styles */
+.list-unstyled {
+  padding: 0;
+  margin: 0;
+}
+
+.list-unstyled p {
+  margin: 10px 0;
+}
+
+/* Copyright section styles */
+.text-center.p-3 {
+  background-color: rgba(0, 0, 0, 0.2);
+  color: white;
+  margin-top: 20px;
+}
+
+.text-center.p-3 a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.text-center.p-3 small {
+  display: block;
+  margin-top: 5px;
+}
+
+.text-center.p-3 small a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Responsive styles for smaller screens */
+@media (max-width: 768px) {
+  .rounded-circle.bg-white {
+    width: 120px;
+    height: 120px;
+  }
+
+  .list-unstyled.d-flex a {
+    font-size: 0.8rem;
+  }
+
+  .text-uppercase.mb-4 {
+    font-size: 0.8rem;
+  }
+
+  .text-center.p-3 {
+    font-size: 0.8rem;
+  }
+}
