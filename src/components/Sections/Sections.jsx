@@ -96,7 +96,8 @@ const SectionsComponent = () => {
               It's not just about the game; it's about the community. Join us
               for socialization and inclusion activities - birthdays, warm
               welcomes, educational outings, farewells, and special occasions.
-              At PUMAS Hockey Club, everyone is part of something extraordinary
+              At Pumas Cali Hockey Club SP, everyone is part of something
+              extraordinary
             </p>
           </div>
         </div>
