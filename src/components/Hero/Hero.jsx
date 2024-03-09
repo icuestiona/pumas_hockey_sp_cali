@@ -77,8 +77,7 @@ const Hero = () => {
               </h1>
               <p>
                 Offering children, youth and their families amusing sports
-                experiences and learnings that contribute to their integral
-                development.
+                experiences that contribute to their integral development.
               </p>
               <button type="button" className="btn btn-info">
                 Ask for a free class
