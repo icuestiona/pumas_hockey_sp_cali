@@ -3,6 +3,7 @@ import Hero from "../components/Hero/Hero";
 import Sections from "../components/Sections/Sections";
 import Requirements from "../components/Requirements/Requirements";
 import Support from "../components/Support/Support";
+import Footer from "../components/Footer/Footer";
 
 const Homepage = () => {
   return (
@@ -11,6 +12,7 @@ const Homepage = () => {
       <Sections />
       <Requirements />
       <Support />
+      <Footer />
     </div>
   );
 };
