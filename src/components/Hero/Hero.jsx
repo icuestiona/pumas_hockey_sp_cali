@@ -71,14 +71,8 @@ const Hero = () => {
               alt={image.alt}
             />
             <div className="hero-image-overlay-content">
-              <h1>
-                Enjoyment, learning and <br />
-                lifelong sports training!
-              </h1>
-              <p>
-                Offering children, youth and their families amusing sports
-                experiences that contribute to their integral development.
-              </p>
+              <h1>Pumas Cali Hockey Club SP</h1>
+              <p>Enjoyment, learning and lifelong sports training!</p>
               <button type="button" className="btn btn-info">
                 Ask for a free class
               </button>
