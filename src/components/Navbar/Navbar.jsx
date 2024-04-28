@@ -35,14 +35,6 @@ const Navbar = () => {
             <div className="logo">
               <img src={clubLogo} alt="Club Logo" />
             </div>
-
-            <button
-              className="navbar-toggler"
-              type="button"
-              onClick={toggleNav}
-            >
-              <span className="navbar-toggler-icon"></span>
-            </button>
           </div>
 
           <div className={`navbar-collapse ${isNavOpen ? "show" : ""}`}>
@@ -62,6 +54,13 @@ const Navbar = () => {
           </div>
 
           <div className="right-section">
+            <button
+              className="navbar-toggler"
+              type="button"
+              onClick={toggleNav}
+            >
+              <span className="navbar-toggler-icon"></span>
+            </button>
             <div className={`social-links ${isNavOpen ? "open" : ""}`}>
               <a
                 href="https://es-es.facebook.com/pumashockeysp/"
