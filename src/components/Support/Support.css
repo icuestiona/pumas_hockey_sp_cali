@@ -1,5 +1,6 @@
 .support-container {
-  margin: 80px;
+  max-width: 1200px;
+  margin: 0 auto;
   margin-top: 80px;
   margin-bottom: 30px;
   align-items: center;
