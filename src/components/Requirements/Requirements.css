@@ -2,6 +2,7 @@
   position: relative;
   overflow: hidden;
   height: 100vh;
+  margin: 0;
 }
 
 .requirements-box img {
@@ -39,9 +40,13 @@
 }
 
 .column {
+  flex: 1;
   column-count: 2;
-  width: 40%;
+  column-gap: 30px;
+  width: 45%;
   column-rule-style: dotted;
+  text-align: justify;
+  display: inline-block;
 }
 
 .text-container p {
