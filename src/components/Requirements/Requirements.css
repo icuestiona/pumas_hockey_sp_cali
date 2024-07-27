@@ -33,11 +33,13 @@
   margin-bottom: 2rem;
   font-weight: 600;
 }
+
 .text-container {
+  margin-top: 100px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-}
+ }
 
 .column {
   flex: 1;
@@ -47,12 +49,13 @@
   column-rule-style: dotted;
   text-align: justify;
   display: inline-block;
+
 }
 
 .text-container p {
   font-size: 0.9rem;
   width: 100%;
-  color: white;
+  color: black;
   margin-bottom: 20px;
 }
 
