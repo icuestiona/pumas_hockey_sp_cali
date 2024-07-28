@@ -24,17 +24,17 @@ const AboutPage = () => {
       <img src={image63} alt="Pumas player" />
       <p>
         <h4>
-        Hard times and the decline of Roller Hockey in our region
+        Tough times for Roller Hockey in Valle del Cauca
         </h4>
-      Despite the achievements in roller hockey, Cali witnessed the progressive disappearance of this discipline in 2011. This phenomenon is attributed to the lack of interest and continuity from former players, as well as the limited attention and support provided by regional sports institutions. Consequently, the clubs in Tuluá and Yumbo also ceased their activities in 2018 and 2019, respectively, highlighting a crisis in the development of roller hockey in our department.
+        Despite the achievements in roller hockey, Cali witnessed the progressive disappearance of this discipline in 2011. This phenomenon is attributed to the lack of interest and continuity from former players, as well as the limited attention and support provided by regional sports institutions. Consequently, the clubs in Tuluá and Yumbo also ceased their activities in 2018 and 2019, respectively, highlighting a crisis in the development of roller hockey in our department.
       </p>
       <p>
-      However, in 2016, two former players and a group of parents took the initiative to revive roller hockey in Cali by creating the <strong>Pumas Cali Roller Hockey Club</strong>, the only roller hockey club in the city. Due to the allocation of the original venue to other sports and the consequent lack of facilities for practice, the club requested and obtained establishment in the Vallecaucana de Patinaje League, specifically at the Hockey Patín Luz Mery Tristán – Unidad Jaime Soto Aparicio rink. <br/> <br/>
-      Initially, the club operated with a restricted schedule of three days a week and four and a half hours of weekly practice. However, the programming was later expanded to the whole week, resulting in a total of eight hours of weekly activity.
+        However, in 2016, two former players and a group of parents took the initiative to revive roller hockey in Cali by creating the <strong>Pumas Cali Roller Hockey Club</strong>, the only roller hockey club in the city. Due to the allocation of the original venue to other sports and the consequent lack of facilities for practice, the club requested and obtained establishment in the Vallecaucana de Patinaje League, specifically at the Hockey Patín Luz Mery Tristán – Unidad Jaime Soto Aparicio rink. <br/> <br/>
+        Initially, the club operated with a restricted schedule of three days a week and four and a half hours of weekly practice. However, the programming was later expanded to the whole week, resulting in a total of eight hours of weekly activity.
       </p>
           <img src={image62} alt="Pumas children" />
       <h4>
-      Pumas Club, the revival of a sport and its achievements  
+        Pumas Club, the revival of a sport and its achievements  
       </h4>
       <p>
       <strong>Pumas Cali Roller Hockey Club</strong> stands as an outstanding example of roller hockey practice, with 34 players, both male and female, ranging in age from 3 to 40 years old, from Cali, Yumbo, Jamundí, and Tuluá. <br/> <br/>
@@ -44,7 +44,7 @@ const AboutPage = () => {
       </p>
          <img src={image61} alt="Pumas team" />
       <h4>
-      Challenges and difficulties
+      Our challenges
       </h4>
       <p>
       Despite these achievements and advancements in the revival of roller hockey in Cali and Valle del Cauca, the consolidation of this sport faces serious difficulties. The lack of interest and support from former players, as well as from sports institutions in Cali, Yumbo, and Tuluá, limits its development. <br/> <br/>
