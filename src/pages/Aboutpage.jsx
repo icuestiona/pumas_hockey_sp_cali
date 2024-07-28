@@ -17,7 +17,7 @@ const AboutPage = () => {
            <img src={image64} alt="Pumas team" />
       <p>
       <strong>Pumas Roller Hockey Club</strong> of Cali, Colombia, is a team that represents the rich history and revival of roller hockey in Valle del Cauca, Colombia. Roller hockey in our region has a history that dates back 50 years, being the first skating discipline that led to the creation of the Valle del Cauca Skating League, originally known as the Hockey and Skating League of Valle del Cauca. <br/> <br/>
-      It is important to mention that The Valle del Cauca Roller Hockey Team has achieved a total of 23 national titles, making them the team with the most championships in this discipline to date, with their last victory recorded in 2009. They have also celebrated three championships in the National Games in 1988, 1992, and 1996, and were runners-up in 2004 when roller hockey was reintroduced to this sporting event. <br/> <br/>
+      It is important to mention that the Valle del Cauca Roller Hockey Team has achieved a total of 23 national titles, making them the team with the most championships in this discipline to date, with their last victory recorded in 2009. They have also celebrated three championships in the National Games in 1988, 1992, and 1996, and were runners-up in 2004 when roller hockey was reintroduced to this sporting event. <br/> <br/>
       In Valle del Cauca, until the 2000s, there were twelve roller hockey clubs, with Cali being home to six of them: América, Mequin, José Noel Franco, Independiente, Siete Ríos, and Micromalla. Additionally, roller hockey was practiced in various educational institutions such as Berchmans, San Luis Gonzaga, and Reyes Católico schools.  <br/> <br/>
       Another club was founded in Buga in 1993, which later transformed into Los Huracanes in 1998, while the Club Bengala de Tuluá emerged in 1999. In 2010, with the support of the Cali team coach, Club Barcelona was established in Yumbo, further diversifying the roller hockey offerings in the region. <br/> <br/>
       </p>
@@ -38,7 +38,7 @@ const AboutPage = () => {
       </h4>
       <p>
       <strong>Pumas Cali Roller Hockey Club</strong> stands as an outstanding example of roller hockey practice, with 34 players, both male and female, ranging in age from 3 to 40 years old, from Cali, Yumbo, Jamundí, and Tuluá. <br/> <br/>
-      Among these athletes, some come from vulnerable contexts such as Siloé and Las Palmas neighbourhoods, as well as rural areas like Montebello. Representing the youth, under 19, and senior categories, the club hosts the only women's team in Valle del Cauca, dedicated to revitalizing this discipline in the city of Cali and its surroundings.<br/> <br/>
+      Among these athletes, some come from vulnerable contexts such as Siloé and Las Palmas neighborhoods, as well as rural areas like Montebello. Representing the youth, under 19, and senior categories, the club hosts the only women's team in Valle del Cauca, dedicated to revitalizing this discipline in the city of Cali and its surroundings.<br/> <br/>
       <strong>Pumas Cali Roller Hockey Club</strong> has achieved several accomplishments, including being champions in the Women Under 19 category in 2024, third place twice in the Open Women's category in 2024, third place twice in the Under 19 category in 2023 and 2024, and third place nationally in skills with the Roller Hockey School. <br/> <br/>
       Additionally, three female players were called up and participated in the Colombian Roller Hockey National Team at the Pan American Roller Hockey Championship held in Bogotá in 2024.
       </p>
@@ -54,7 +54,7 @@ const AboutPage = () => {
       To consolidate roller hockey and strengthen the sports training of the club's athletes, a four-week Hockey Technification Clinic was held in the city of Cali between July and August 2024. <br/> <br/>
       This initiative was designed to improve the technical capabilities of the athletes, thereby optimizing their performance. It also aimed to train the coaches of Pumas and Valle del Cauca teams, who, as former experienced players, contribute contractually and voluntarily to the development of this discipline, enriching the comprehensive training of the participants.<br/> <br/>
       In this regard, the international camp represented a significant step in the consolidation of the Roller Hockey team, promoting social values and excellent sports technique. The goal is to prepare the members to excel in both roller and conventional hockey, aiming to reach the required levels in national competition. This initiative directly contributes to the fulfillment of our vision, focused on the high performance of Roller Hockey.
-  </p>
+      </p>
         </div>
       </div>
     </div>
