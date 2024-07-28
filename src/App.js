@@ -7,6 +7,7 @@ import Support from "./pages/Support";
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar/Navbar";
+import Footer from "./components/Footer/Footer";
 import "./App.css";
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
         <Route path="/join" element={<JoinUs />} />
         <Route path="/support" element={<Support/>} />
       </Routes>
+      <Footer />
     </BrowserRouter>
   );
 }
