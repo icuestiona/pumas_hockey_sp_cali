@@ -10,10 +10,10 @@ import image65 from "../components/Assets/Pumas12.jpg";
 const AboutPage = () => {
   return (
     <div className="about-page">
-    <div className="about-container">
-    <h1>Pumas Club, boosting the growth of roller hockey in our region </h1>
-    <div className="about-content">
-      <div className="about-column">
+      <div className="about-container">
+        <h1>Pumas Club, boosting the growth of roller hockey in our region </h1>
+          <div className="about-content">
+            <div className="about-column">
            <img src={image64} alt="Pumas team" />
       <p>
       The Club Pumas Hockey SP in Cali, Colombia is a team that represents the rich history and revival of roller hockey in Valle del Cauca, Colombia. Roller hockey in our region has a history that dates back 50 years, being the first skating discipline that led to the creation of the Valle del Cauca Skating League, originally known as the Hockey and Skating League of Valle del Cauca. <br/> <br/>
@@ -55,9 +55,9 @@ const AboutPage = () => {
       This initiative was designed to improve the technical capabilities of the athletes, thereby optimizing their performance. It also aimed to train the coaches of Pumas and Valle del Cauca teams, who, as former experienced players, contribute contractually and voluntarily to the development of this discipline, enriching the comprehensive training of the participants.<br/> <br/>
       In this regard, the international camp represented a significant step in the consolidation of the Roller Hockey team, promoting social values and excellent sports technique. The goal is to prepare the members to excel in both roller and conventional hockey, aiming to reach the required levels in national competition. This initiative directly contributes to the fulfillment of our vision, focused on the high performance of Roller Hockey.
   </p>
-  </div>
-  </div>
-  </div>
+        </div>
+      </div>
+    </div>
   </div>
   );
 };
